@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Privilege Check</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <h1>What's your privilege?</h1> -->
+
+      <p>The following questions are adopted from the incredible work of activist Peggy McIntosh, in her writing "Unpacking the Invisible Knapsack."</p>
+
+      <p>Answer the following Yes or No questions honestly and critically. You may have never analyzed your life in this way before, but be open to the reality that these quetion point towards, and you may realize something very important about yourself and the world around you.</p>
+      <br></br>
+      <form id="privilege">
+        <div class="form-group">
+        <h4>1. I can if I wish arrange to be in the company of people of my race most of the time.</h4>
+        <div class="question1">
+            <label><input type="radio" name="question1" value="1" checked>True</label>
+            <label><input type="radio" name="question1" value="0">False</label>
+      </div><!--closes question1 div-->
+      </div><!--closes form-group-->
+        <br>
+        <div class="form-group">
+        <h4>2. I can avoid spending time with people whom I was trained to mistrust and who have learned to
+            mistrust my kind or me.</h4>
+        <div class="question2">
+            <input type="radio" name="question2" value="1" checked>True<br>
+            <input type="radio" name="question2" value="0">False<br>
+        </div>
+        </div><!--closes q2 form-group-->
+      <br></br>
+      <div class = "form-group">
+        <h4>3. If I should need to move, I can be pretty sure of renting or purchasing housing in an area which I can
+            afford and in which I would want to live.</h4>
+        <div class="question3">
+            <input type="radio" name="question3" value="1" checked>True<br>
+            <input type="radio" name="question3" value="0">False<br>
+        </div>
+            <button id="submit">Submit Quiz</button>
+
+      </form>
+
+      <div id="quote">
+        <p>you are very privileged</p>
+      </div>
+    </div><!--closes container-->
+  </body>
+</html>

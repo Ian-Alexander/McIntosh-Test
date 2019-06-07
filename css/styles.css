@@ -1,0 +1,32 @@
+/* .privilege {
+  display: none;
+} */
+.btn {
+  display: block;
+}
+
+.show {
+  display: show;
+}
+
+#quote{
+  display:none;
+}
+
+h4{
+  text-align: center;
+}
+
+h1{
+  text-align:center;
+}
+
+.question1{
+  text-align: center;
+}
+.question2{
+  text-align: center;
+}
+.question3{
+  text-align: center;
+}
