@@ -5,83 +5,142 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Privilege Check</title>
+    <title>Privilege Calculator</title>
   </head>
   <body>
     <div class="container">
-      <h1>Privilege Checker</h1><br>
-      <p>The following questions are adopted from the incredible work of activist Peggy McIntosh, in her writing "Unpacking the Invisible Knapsack."</p>
+      <div class="jumbotron">
+        <h1>The McIntosh Test</h1><br><br>
+        <p>The following questions are adapted from the incredible work of activist <strong>Peggy McIntosh</strong>, and her writing "Unpacking the Invisible Knapsack",<br>found online <a href="https://www.racialequitytools.org/resourcefiles/mcintosh.pdf">here</a></p>
 
-      <p>Answer the following Yes or No questions honestly and critically. You may have never analyzed your life in this way before, but be open to the reality that these quetion point towards, and you may realize something very important about yourself and the world around you.</p>
-      <br></br>
+        <p>Answer the following True or False questions honestly and critically. You may have never analyzed your life experience in this way before, but be open to the reality that these quetion point towards, and you may realize something very important about yourself and the world around you.</p>
+      </div><!--closes jumbotron-->
       <form id="privilege">
-        <h4>1. I can be sure that if I need legal or medical help, my race will not work against me.</h4>
-        <select class="form-control" id="question1">
-          <option value="1">True</option>
-          <option value="0">False</option>
-        </select>
-        <br>
-        <h4>2. I do not have to educate my children to be aware of systemic racism for their own daily physical
-          protection.</h4>
-            <select class="form-control" id="question2">
+        <h5>1. I can be sure that if I need legal or medical help, my race will not work against me.</h5>
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="form-group">
+            <select class="form-control" id="question1">
               <option value="1">True</option>
               <option value="0">False</option>
             </select>
+          </div>
+        </div>
+      </div>
+        <br>
+        <h5>2. I do not have to educate my children to be aware of systemic racism for their own daily physical
+          protection.</h5>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="form-group">
+              <select class="form-control" id="question2">
+                <option value="1">True</option>
+                <option value="0">False</option>
+              </select>
+              </div>
+            </div>
+          </div>
             <br>
-      <h4>3. Your government represents your own identity positions, and you can be sure will create laws which benefit your identity group.</h4>
+      <h5>3. When interacting with law enforcement, I can be sure I will not be suspected as a criminal because of my race.</h5>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="form-group">
           <select class="form-control" id="question3">
             <option value="1">True</option>
             <option value="0">False</option>
           </select>
+          </div>
+        </div>
+      </div>
           <br>
-        <h4>4. I can chose blemish cover or bandages in "flesh" color and have them more or less match my skin.</h4>
-        <select class="form-control" id="question4">
-          <option value="1">True</option>
-          <option value="0">False</option>
-        </select>
+        <h5>4. I can sign up for counseling and expect my therapist to be the same race as me.</h5>
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="form-group">
+            <select class="form-control" id="question4">
+              <option value="1">True</option>
+              <option value="0">False</option>
+            </select>
+            </div>
+          </div>
+        </div>
         <br>
-          <h4>5. I can go shopping alone most of the time, pretty well assured that I will not be followed or harassed.</h4>
-          <select class="form-control" id="question5">
-            <option value="1">True</option>
-            <option value="0">False</option>
-          </select>
+          <h5>5. I can go shopping, well assured that I will not be followed or harassed.</h5>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="form-group">
+              <select class="form-control" id="question5">
+                <option value="1">True</option>
+                <option value="0">False</option>
+              </select>
+              </div>
+            </div>
+          </div>
           <br>
-            <h4>6. I can turn on the television or open to the front page of the paper and see people of my race widely
-              represented.</h4>
-              <select class="form-control" id="question6">
-                <option value="1">True</option>
-                <option value="0">False</option>
-              </select>
+            <h5>6. I can turn on the television or open my computer and see people of my race widely
+              represented.</h5>
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="form-group">
+                  <select class="form-control" id="question6">
+                    <option value="1">True</option>
+                    <option value="0">False</option>
+                  </select>
+                  </div>
+                </div>
+              </div>
               <br>
-            <h4>7. When I am told about our national heritage or about "civilization," I am shown that people of my
-              color made it what it is.</h4>
-              <select class="form-control" id="question7">
-                <option value="1">True</option>
-                <option value="0">False</option>
-              </select>
+            <h5>7. When I am told about our american national heritage, I am shown that people of my
+              color made it what it is.</h5>
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="form-group">
+                  <select class="form-control" id="question7">
+                    <option value="1">True</option>
+                    <option value="0">False</option>
+                  </select>
+                  </div>
+                </div>
+              </div>
               <br>
-            <h4>8. I can be sure that my children will be given curricular materials that testify to the existence of their
-              race.</h4>
-              <select class="form-control" id="question8">
-                <option value="1">True</option>
-                <option value="0">False</option>
-              </select>
+            <h5>8. There is no history of laws written against people of my race in the country I live in.</h5>
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="form-group">
+                  <select class="form-control" id="question8">
+                    <option value="1">True</option>
+                    <option value="0">False</option>
+                  </select>
+                  </div>
+                </div>
+              </div>
               <br>
-            <h4>9. I can be pretty sure of having my voice heard in a group in which I am the only member of my race.</h4>
-            <select class="form-control" id="question9">
-              <option value="1">True</option>
-              <option value="0">False</option>
-            </select>
+            <h5>9. I can be pretty sure of having my voice heard in a group in which I am the only member of my race.</h5>
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="form-group">
+                <select class="form-control" id="question9">
+                  <option value="1">True</option>
+                  <option value="0">False</option>
+                </select>
+                </div>
+              </div>
+            </div>
             <br>
-            <h4>10. If I want to, I can be pretty sure of finding a publisher for this piece on white privilege.</h4>
-
-            <select class="form-control" id="question10">
-              <option value="1">True</option>
-              <option value="0">False</option>
-            </select>
+            <h5>10. My ideas of race and whiteness are seen as intelletual and non threatening.</h5>
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="form-group">
+                <select class="form-control" id="question10">
+                  <option value="1">True</option>
+                  <option value="0">False</option>
+                </select>
+                </div>
+              </div>
+            </div>
             <br>
 
-            <button type="submit" class="btn">Go!</button>
+            <button type="submit" class="btn btn-warning btn-lg">Go!</button>
         </form>
 
       <div id="quote1">

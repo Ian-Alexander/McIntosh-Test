@@ -1,4 +1,20 @@
 body {
+  background-color: #ffd8d8;
+}
+
+.jumbotron {
+  background-color: #fff7f7
+}
+
+btn {
+  align-items: center;
+}
+
+/* h5 {
+   color: white;
+} */
+
+h1{
   text-align: center;
 }
 
