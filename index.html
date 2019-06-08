@@ -9,44 +9,96 @@
   </head>
   <body>
     <div class="container">
-      <!-- <h1>What's your privilege?</h1> -->
-
       <p>The following questions are adopted from the incredible work of activist Peggy McIntosh, in her writing "Unpacking the Invisible Knapsack."</p>
 
       <p>Answer the following Yes or No questions honestly and critically. You may have never analyzed your life in this way before, but be open to the reality that these quetion point towards, and you may realize something very important about yourself and the world around you.</p>
       <br></br>
       <form id="privilege">
-        <div class="form-group">
         <h4>1. I can if I wish arrange to be in the company of people of my race most of the time.</h4>
-        <div class="question1">
-            <label><input type="radio" name="question1" value="1" checked>True</label>
-            <label><input type="radio" name="question1" value="0">False</label>
-      </div><!--closes question1 div-->
-      </div><!--closes form-group-->
+        <select class="form-control" id="question1">
+          <option value="1">True</option>
+          <option value="0">False</option>
+        </select>
         <br>
-        <div class="form-group">
         <h4>2. I can avoid spending time with people whom I was trained to mistrust and who have learned to
             mistrust my kind or me.</h4>
-        <div class="question2">
-            <input type="radio" name="question2" value="1" checked>True<br>
-            <input type="radio" name="question2" value="0">False<br>
-        </div>
-        </div><!--closes q2 form-group-->
-      <br></br>
-      <div class = "form-group">
-        <h4>3. If I should need to move, I can be pretty sure of renting or purchasing housing in an area which I can
-            afford and in which I would want to live.</h4>
-        <div class="question3">
-            <input type="radio" name="question3" value="1" checked>True<br>
-            <input type="radio" name="question3" value="0">False<br>
-        </div>
-            <button id="submit">Submit Quiz</button>
+            <select class="form-control" id="question2">
+              <option value="1">True</option>
+              <option value="0">False</option>
+            </select>
+            <br>
+      <h4>3. If I should need to move, I can be pretty sure of renting or purchasing housing in an area which I can
+          afford and in which I would want to live.</h4>
+          <select class="form-control" id="question3">
+            <option value="1">True</option>
+            <option value="0">False</option>
+          </select>
+          <br>
+        <h4>4. I can be pretty sure that my neighbors in such a location will be neutral or pleasant to me.</h4>
+        <select class="form-control" id="question4">
+          <option value="1">True</option>
+          <option value="0">False</option>
+        </select>
+        <br>
+          <h4>5. I can go shopping alone most of the time, pretty well assured that I will not be followed or harassed.</h4>
+          <select class="form-control" id="question5">
+            <option value="1">True</option>
+            <option value="0">False</option>
+          </select>
+          <br>
+            <h4>6. I can turn on the television or open to the front page of the paper and see people of my race widely
+              represented.</h4>
+              <select class="form-control" id="question6">
+                <option value="1">True</option>
+                <option value="0">False</option>
+              </select>
+              <br>
+            <h4>7. When I am told about our national heritage or about "civilization," I am shown that people of my
+              color made it what it is.</h4>
+              <select class="form-control" id="question7">
+                <option value="1">True</option>
+                <option value="0">False</option>
+              </select>
+              <br>
+            <h4>8. I can be sure that my children will be given curricular materials that testify to the existence of their
+              race.</h4>
+              <select class="form-control" id="question8">
+                <option value="1">True</option>
+                <option value="0">False</option>
+              </select>
+              <br>
+            <h4>9. If I want to, I can be pretty sure of finding a publisher for this piece on white privilege.</h4>
+            <select class="form-control" id="question9">
+              <option value="1">True</option>
+              <option value="0">False</option>
+            </select>
+            <br>
+            <h4>10. I can be pretty sure of having my voice heard in a group in which I am the only member of my race.</h4>
+            <select class="form-control" id="question10">
+              <option value="1">True</option>
+              <option value="0">False</option>
+            </select>
+            <br>
 
-      </form>
+            <button type="submit" class="btn">Go!</button>
+        </form>
 
-      <div id="quote">
-        <p>you are very privileged</p>
+      <div id="quote1">
+        <p>quote1</p>
       </div>
+      <div id="quote2">
+        <p>quote2</p>
+      </div>
+      <div id="quote3">
+        <p>3</p>
+      </div>
+      <div id="quote4">
+        <p>4</p>
+      </div>
+      <div id="quote5">
+        <p>5</p>
+      </div>
+
     </div><!--closes container-->
   </body>
 </html>
