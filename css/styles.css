@@ -1,27 +1,28 @@
-body {
-  background-color: #ffd8d8;
-}
+
 
 .jumbotron {
   background-color: #fff7f7
-}
-
-btn {
-  align-items: center;
-}
-
-/* h5 {
-   color: white;
-} */
-
-h1{
-  text-align: center;
 }
 
 .show {
   display: show;
 }
 
-#quote1, #quote2, #quote3, #quote4, #quote5 {
-  display: none;
+.btn {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  background-color: #ffd8d8;
+}
+
+h1{
+  text-align: center;
+  margin: 100px;
+  font-size: 75px;
 }
